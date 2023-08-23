@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RP Flask REST API</title>
+    </head>
+    <body>
+        <h1>
+            Product Categories:
+        </h1>
+            {% for category in categories %}
+            <h2>{{ category.name}}</h2>
+            <ul>
+                {% for product in category.products %}
+                <li>{{ product.title }}</li>
+                {% endfor %}
+            </ul>
+            
+            {% endfor %}
+    </body>
+    </html>
