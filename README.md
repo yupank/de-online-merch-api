@@ -8,6 +8,7 @@ IMPLEMENTED endpoints
 - get/users/{user_id} 
 - get/users/{user_id}/sales 
 - get/users/{user_id}/sales/latest
+  
 TO BE IMPLEMENTED
 - get/products/{product_id}/sales/total
 - get/users/{user_id}/sales/total
